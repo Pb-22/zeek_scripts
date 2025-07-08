@@ -75,9 +75,6 @@ To extend this script and capture other HTTP headers (such as `Set-Cookie`, `X-P
 * **Threat hunters** may look for anomalous or suspicious header values (e.g., servers masquerading as common web servers).
 
 ---
-Absolutely! Here’s an added section describing how to quickly test this script using [Try Zeek](https://try.zeek.org/):
-
----
 
 ## Trying Out the Script on [Try Zeek](https://try.zeek.org/)
 

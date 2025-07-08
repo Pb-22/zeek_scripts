@@ -10,7 +10,6 @@ The script creates a custom log stream (`http_server_detection.log`) containing 
 
 ## How the Script Works
 
-* **Custom Record Definition:** Defines a `record` type called `Info` that holds the UID and server type string.
 * **Custom Log Stream:** Sets up a new log (`http_server_detection.log`) via Zeek’s logging framework.
 * **Event Handler:** Listens for the `http_header` event and, for each observed `Server` header in HTTP *responses* (not requests), writes an entry to the custom log.
 * **Optional Extension:** The script is structured to be easily modified for logging additional or different headers.
